@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Triarchy Token Gate Frame
 
-## Getting Started
+This is a Farcaster Frame built with [Frog.fm](https://frog.fm), [Next.js](https://nextjs.org/), [Viem](https://viem.sh), and [Neynar SDK](https://neynar.com/).
+It implements an ERC20 Token Gate, meaning a user can only interact with the frame if they hold a specific asset on-chain.
 
-First, run the development server:
+## Features
+- **Neynar Bulk User API**: Safely resolves FID to connected Ethereum Addresses.
+- **Viem Multicall Optimization**: Reads `balanceOf` across multiple connected custody addresses in a single `multicall` RPC request, vastly reducing latency.
+- **Dynamic Failsafe**: Built-in edge-case catching (Dev Mode without keys).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Deployment Instruction (Vercel)
+This repository is optimized for Edge Networks. To deploy:
+1. Import this repository into Vercel.
+2. Set the Environment Variables:
+   - `NEYNAR_API_KEY`: Your Neynar API Key.
+   - `RPC_URL`: (Optional) Base/Mainnet RPC URL.
+   - `NEXT_PUBLIC_SITE_URL`: The production URL (e.g. `https://my-frame.vercel.app`).
+3. Deploy!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Frameworks
+- Next.js 14 App Router
+- Frog `0.15`
+- Viem
+- TailwindCSS
