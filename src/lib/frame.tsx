@@ -1,3 +1,4 @@
+/* eslint-disable */
 /** @jsxImportSource frog/jsx */
 import { Frog, Button } from 'frog'
 import { createPublicClient, http, parseAbi } from 'viem'
