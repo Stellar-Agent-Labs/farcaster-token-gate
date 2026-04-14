@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-900 text-white">
       <h1 className="text-4xl font-bold mb-4">Triarchy Token Gate Frame</h1>
-      <p className="text-gray-400">Этот URL предназначен для парсинга ботами Farcaster/Warpcast.</p>
+      <p className="text-gray-400">This URL is a Farcaster Frame endpoint intended for Warpcast bots.</p>
     </main>
   )
 }
