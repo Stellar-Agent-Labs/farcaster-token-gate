@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Stellar-Agent-Labs/x402-arbitrage-mesh@main/public/stellar-logo.svg" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/stellar/stellar-protocol/master/stellar-logo.png'" width="80" alt="Stellar Logo" />
+  <img src="public/stellar-logo.svg" width="80" alt="Stellar Logo" />
   <h1>x402 Mesh: Farcaster Sovereign Token Gate</h1>
   <p><strong>The cryptographic bouncer for the AI Agent economy.</strong></p>
   <p><em>Part of the x402 Arbitrage Mesh Submission for DoraHacks 2026</em></p>
