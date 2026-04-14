@@ -121,7 +121,7 @@ app.frame('/verify', async (c) => {
         </div>
       ),
       intents: [
-        <Button.Link key="link-btn" href="https://x402-arbitrage-mesh.vercel.app">Enter Gateway Target</Button.Link>
+        <Button.Link key="link-btn" href={process.env.GATEWAY_URL || "https://x402-arbitrage-mesh.vercel.app"}>Enter Gateway Target</Button.Link>
       ]
     })
   } else {
