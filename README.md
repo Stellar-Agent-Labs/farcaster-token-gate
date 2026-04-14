@@ -31,9 +31,9 @@ This gatekeeper is optimized for blazing-fast Edge Networks to ensure zero laten
 ## 🛠️ Architecture Stack
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| **Core** | Next.js 14 App Router | Edge computing and API routing |
-| **Farcaster** | Frog.fm 0.15 + Neynar SDK | Frame rendering and FID validation |
-| **On-Chain** | Viem | `multicall` optimized balance reads |
+| **Core** | Next.js 14.2.35 | Edge computing and API routing |
+| **Farcaster** | Frog.fm 0.18.3 + Neynar SDK 3.137 | Frame rendering and FID validation |
+| **On-Chain** | Viem 2.47 | `multicall` optimized balance reads |
 
 ---
 *Connected to the primary infrastructure:* [x402-arbitrage-mesh](https://github.com/Stellar-Agent-Labs/x402-arbitrage-mesh)
