@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="public/stellar-logo.svg" width="80" alt="Stellar Logo" />
-  <h1>x402 Mesh: Farcaster Sovereign Token Gate</h1>
+  <h1>✜ x402 Mesh: Farcaster Sovereign Token Gate</h1>
   <p><strong>The cryptographic bouncer for the AI Agent economy.</strong></p>
   <p><em>Part of the x402 Arbitrage Mesh Submission for DoraHacks 2026</em></p>
 </div>
@@ -28,12 +27,13 @@ This gatekeeper is optimized for blazing-fast Edge Networks to ensure zero laten
    - `NEXT_PUBLIC_SITE_URL`: The host URL of this frame.
    - `NEXT_PUBLIC_MESH_DASHBOARD_URL`: The exact URL of your `x402 Arbitrage Mesh` dashboard. Authorized users are redirected here.
 
-## 🛠️ Architecture Stack
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Core** | Next.js 14.2.35 | Edge computing and API routing |
-| **Farcaster** | Frog.fm 0.18.3 + Neynar SDK 3.137 | Frame rendering and FID validation |
-| **On-Chain** | Viem 2.47 | `multicall` optimized balance reads |
+## 🛠️ The Farcaster Cyber-Stack
+
+| Layer | Core Technologies | Focus & Execution |
+|-------|-------------------|-------------------|
+| **Core Edge Node** | `Next.js 14.2`, `Edge Runtime` | Zero-latency API routing, Vercel Edge compute |
+| **Social Graph**   | `Frog.fm 0.18`, `Neynar API`   | Frame rendering, FID verification, Social Graph parsing |
+| **On-Chain Verify**| `Viem 2.47`, `Multicall`       | High-frequency `multicall` balance reads, ERC20 validation |
 
 ---
 *Connected to the primary infrastructure:* [x402-arbitrage-mesh](https://github.com/Triarchy-Labs/x402-arbitrage-mesh)
