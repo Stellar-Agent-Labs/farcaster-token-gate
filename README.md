@@ -36,4 +36,4 @@ This gatekeeper is optimized for blazing-fast Edge Networks to ensure zero laten
 | **On-Chain** | Viem 2.47 | `multicall` optimized balance reads |
 
 ---
-*Connected to the primary infrastructure:* [x402-arbitrage-mesh](https://github.com/Stellar-Agent-Labs/x402-arbitrage-mesh)
+*Connected to the primary infrastructure:* [x402-arbitrage-mesh](https://github.com/Triarchy-Labs/x402-arbitrage-mesh)
